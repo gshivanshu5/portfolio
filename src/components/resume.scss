@@ -1,0 +1,58 @@
+#education {
+    height: 100%;
+}
+
+.edu {
+    width: 100%;
+    padding: 20px;
+
+    .timeLine {
+        align-items: center;
+        width: 65%;
+        margin: auto;
+
+        .timeLineElement {
+            padding: 0 0 20px 0;
+        }
+
+        .timeLineElement:last-child {
+            padding-bottom: 0px;
+        }
+
+        div {
+            // display: flex;
+            align-items: center;
+
+            h3{
+                font-size: 20px;
+            }
+
+            h4 {
+                font-size: 16px ;
+                margin-top: 8px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+        }
+        .vertical-timeline-element-content-arrow{
+            display: none;
+        }
+    }
+}
+
+@media only screen and (max-width:760px) {
+    .edu{
+        .timeLine{
+            width: 90%;
+        }
+    }
+}
+@media only screen and (max-width:475px) {
+    .edu{
+        .timeLine{
+            width: 100%;
+        }
+    }
+}
