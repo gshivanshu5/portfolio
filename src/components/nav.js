@@ -20,7 +20,7 @@ export default function Nav() {
                     }>
                     <ul >
                         <li>
-                            <Link to="/portfolio" onClick={() => setShowMediaIcons(!showMediaIcons)}>HOME</Link>
+                            <Link to="/" onClick={() => setShowMediaIcons(!showMediaIcons)}>HOME</Link>
                         </li>
                         <li>
                             <Link to="/about" onClick={() => setShowMediaIcons(!showMediaIcons)}>ABOUT</Link>
