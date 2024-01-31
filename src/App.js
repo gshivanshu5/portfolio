@@ -12,7 +12,7 @@ import Nav from "./components/nav";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/portfolio">
         <Nav />
         <div className="main_content">
         <Routes>
