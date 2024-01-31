@@ -68,11 +68,11 @@ export default function About() {
               }
               <li>
                 <span className='title'>GitHub:</span>
-                <span className='value'><a href="https://github.com/gshivanshu5" target='blank'>https://github.com/gshivanshu5</a></span>
+                <span className='value top'><a href="https://github.com/gshivanshu5" target='blank'>https://github.com/gshivanshu5</a></span>
               </li>
               <li>
                 <span className='title'>LinkedIn:</span>
-                <span className='value'><a href="https://www.linkedin.com/in/shivanshu-kr-gupta/" target='blank'>https://www.linkedin.com/in/shivanshu-kr-gupta/</a></span>
+                <span className='value top'><a href="https://www.linkedin.com/in/shivanshu-kr-gupta/" target='blank'>https://www.linkedin.com/in/shivanshu-kr-gupta/</a></span>
               </li>
             </ul>
           </Animate>

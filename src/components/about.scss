@@ -127,6 +127,9 @@
         height: 250px;
         background: radial-gradient(130px, var(--yellow-theme-main-color), transparent 90%);
     }
+    .top{
+        line-height: 20px;
+    }
 }
 
 @media only screen and (max-width:400px) {
