@@ -16,17 +16,6 @@ const Skills = () => {
       <div className="skills__content-wrapper">
         {skillsData.map((item, i) => (
           <div key={i} className="skills__content-wrapper__inner-content">
-            <Animate
-              play
-              duration={1}
-              delay={0.3}
-              start={{
-                transform: "translateX(-200px)",
-              }}
-              end={{
-                transform: "translateX(0px)",
-              }}
-            >
               <h3 className="skills__content-wrapper__inner-content__category-text">
                 {item.label}
               </h3>
@@ -51,7 +40,6 @@ const Skills = () => {
                   </AnimateKeyframes>
                 ))}
               </div>
-            </Animate>
           </div>
         ))}
       </div>
