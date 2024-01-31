@@ -20,22 +20,22 @@ export default function Nav() {
                     }>
                     <ul >
                         <li>
-                            <Link to="/portfolio/">HOME</Link>
+                            <Link to="/portfolio/" onClick={() => setShowMediaIcons(!showMediaIcons)}>HOME</Link>
                         </li>
                         <li>
-                            <Link to="/about">ABOUT</Link>
+                            <Link to="/about" onClick={() => setShowMediaIcons(!showMediaIcons)}>ABOUT</Link>
                         </li>   
                         <li>
-                            <Link to="/skills">SKILLS</Link>
+                            <Link to="/skills" onClick={() => setShowMediaIcons(!showMediaIcons)}>SKILLS</Link>
                         </li>
                         <li>
-                            <Link to="/project">PROJECT</Link>
+                            <Link to="/project" onClick={() => setShowMediaIcons(!showMediaIcons)}>PROJECT</Link>
                         </li>
                         <li>
-                            <Link to="/resume">EDUCATION</Link>
+                            <Link to="/resume" onClick={() => setShowMediaIcons(!showMediaIcons)}>EDUCATION</Link>
                         </li>
                         <li>
-                            <Link to="/contact">CONTACT</Link>
+                            <Link to="/contact" onClick={() => setShowMediaIcons(!showMediaIcons)}>CONTACT</Link>
                         </li>
                     </ul>
                 </div>
