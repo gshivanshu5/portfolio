@@ -12,7 +12,7 @@ const portfolioData = [
     id: 2,
     name: "Portfolio",
     image: ImageOne,
-    link: "/",
+    link: "/portfolio/",
     describe: "Explore my dynamic portfolio crafted with React.js, showcasing a seamless blend of creativity and functionality in web development."
   },
   {
