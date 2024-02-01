@@ -8,6 +8,7 @@ import Portfolio from "./components/portfolio";
 import Resume from "./components/resume";
 import Skills from "./components/skill/s";
 import Nav from "./components/nav";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 function App() {
   return (
