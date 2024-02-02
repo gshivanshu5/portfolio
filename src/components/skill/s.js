@@ -1,7 +1,7 @@
 import { Line } from "rc-progress";
 import React from "react";
 import { GiSkills } from "react-icons/gi";
-import { Animate, AnimateKeyframes } from "react-simple-animate";
+import { AnimateKeyframes } from "react-simple-animate";
 import Page from "../page";
 import { skillsData } from "./utils";
 import './styles.scss';
