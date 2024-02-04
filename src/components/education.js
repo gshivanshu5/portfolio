@@ -15,7 +15,7 @@ export const data = {
         {
             title: "12th Grade",
             college: "Kendriya Vidyalaya CTPS Chandrapura",
-            CGPA:"8.6 CGPA",
+            CGPA:"7.2 CGPA",
             date: "2018 - 2019"
         },
         {
