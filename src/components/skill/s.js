@@ -36,6 +36,7 @@ const Skills = () => {
                         trailWidth="3"
                         strokeLinecap="square"
                       />
+                      <p>{skillItem.percentage}%</p>
                     </div>
                   </AnimateKeyframes>
                 ))}
