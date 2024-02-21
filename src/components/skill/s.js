@@ -30,6 +30,7 @@ const Skills = () => {
                     <div className="progressbar-wrapper" key={j}>
                       <p>{skillItem.skillName}</p>
                       <Line
+                        key={skillItem}
                         percent={skillItem.percentage}
                         strokeWidth="3"
                         strokeColor="var(--yellow-theme-main-color)"
