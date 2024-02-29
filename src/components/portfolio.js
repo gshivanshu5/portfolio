@@ -25,7 +25,7 @@ const portfolioData = [
   {
     id: 4,
     name: "Ecommerce Template",
-    link: "https://gshivanshu5.github.io/ecommerceTemplate/",
+    link: "https://ashop.netlify.app/",
     image: ImageThree,
     describe: "Sleek and responsive eCommerce template crafted with HTML, CSS, and JS, offering a seamless browsing experience and stylish design for online businesses."
   },
