@@ -3,11 +3,19 @@ import { useState } from 'react';
 import ImageOne from './../images/image1.png';
 import ImageTwo from './../images/image2.png';
 import ImageThree from './../images/image3.png';
+import ImageFour from './../images/img4.png'
 import Page from './page';
 import { GoProjectSymlink } from "react-icons/go";
 import './portfolio.scss'
 
 const portfolioData = [
+  {
+    id: 5,
+    name: "Ecommerce",
+    link: "https://ashopreact.netlify.app/",
+    image: ImageFour,
+    describe: "Shop seamlessly with our React-Redux powered eCommerce site, backed by the reliability of Firebase for secure transactions and real-time updates."
+  },
   {
     id: 2,
     name: "Portfolio",
@@ -57,7 +65,7 @@ export default function Portfolio() {
                   <div>
                     <p>{item.name}</p>
                     <a href={item.link}>
-                    <button>Visit</button>
+                      <button>Visit</button>
                     </a>
                   </div>
                 )}
