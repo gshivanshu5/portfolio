@@ -4,11 +4,27 @@ import ImageOne from './../images/image1.png';
 import ImageTwo from './../images/image2.png';
 import ImageThree from './../images/image3.png';
 import ImageFour from './../images/img4.png'
+import ImageFive from './../images/img5.png'
+import ImageSix from './../images/img6.png'
 import Page from './page';
 import { GoProjectSymlink } from "react-icons/go";
 import './portfolio.scss'
 
 const portfolioData = [
+  {
+    id: 7,
+    name: "True Feedback- Mystery message",
+    link: "https://mystery-message-taupe.vercel.app/",
+    image: ImageSix,
+    describe: "Experience our cutting-edge mystery messaging app, built with Next.js, offering secure OTP registration and anonymous messaging. Get intelligent message ideas from OpenAI for thrilling and innovative conversations."
+  },
+  {
+    id: 6,
+    name: "MusicApp",
+    link: "https://github.com/gshivanshu5/nextjs-project-using-aceternityui",
+    image: ImageFive,
+    describe: "I recently built an interactive project using Next.js and Aceternity UI, deepening my understanding of server-side rendering, routing, and API handling. The project also leveraged Aceternity UI's components for a polished user interface."
+  },
   {
     id: 5,
     name: "Ecommerce",
